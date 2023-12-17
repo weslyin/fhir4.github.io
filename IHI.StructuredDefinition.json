@@ -1,0 +1,94 @@
+{
+	"StructureDefinition": {
+		"id": {
+			"_value": "IHI"
+		},
+		"text": {
+			"status": {
+				"_value": "generated"
+			},
+			"div": {
+				"_xmlns": "http://www.w3.org/1999/xhtml",
+				"__text": "This is irish health identifier"
+			}
+		},
+		"url": {
+			"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition"
+		},
+		"version": {
+			"_value": "1.0"
+		},
+		"name": {
+			"_value": "IHI"
+		},
+		"status": {
+			"_value": "active"
+		},
+		"description": {
+			"_value": "Irish Health Identifier"
+		},
+		"fhirVersion": {
+			"_value": "4.0.1"
+		},
+		"kind": {
+			"_value": "resource"
+		},
+		"abstract": {
+			"_value": "false"
+		},
+		"context": {
+			"type": {
+				"_value": "element"
+			},
+			"expression": {
+				"_value": "Patient"
+			}
+		},
+		"type": {
+			"_value": "Extension"
+		},
+		"baseDefinition": {
+			"_value": "http://hl7.org/fhir/StructureDefinition/Extension"
+		},
+		"derivation": {
+			"_value": "constraint"
+		},
+		"differential": {
+			"element": [
+				{
+					"path": {
+						"_value": "Extension"
+					},
+					"short": {
+						"_value": "IHI"
+					},
+					"max": {
+						"_value": "1"
+					},
+					"_id": "Extension"
+				},
+				{
+					"path": {
+						"_value": "Extension.url"
+					},
+					"fixedUri": {
+						"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition"
+					},
+					"_id": "Extension.url"
+				},
+				{
+					"path": {
+						"_value": "Extension.value[x]"
+					},
+					"type": {
+						"code": {
+							"_value": "string"
+						}
+					},
+					"_id": "Extension.value[x]"
+				}
+			]
+		},
+		"_xmlns": "http://hl7.org/fhir"
+	}
+}
