@@ -13,7 +13,7 @@
 			}
 		},
 		"url": {
-			"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition/blob/main"
+			"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition/blob/main/IHI.StructuredDefinition.json"
 		},
 		"version": {
 			"_value": "1.0"
@@ -72,7 +72,7 @@
 						"_value": "Extension.url"
 					},
 					"fixedUri": {
-						"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition"
+						"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition/blob/main/IHI.StructuredDefinition.json"
 					},
 					"_id": "Extension.url"
 				},
