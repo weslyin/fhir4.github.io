@@ -13,7 +13,7 @@
 			}
 		},
 		"url": {
-			"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition"
+			"_value": "https://github.com/weslyin/fhir4.github.io-StructureDefinition/blob/main"
 		},
 		"version": {
 			"_value": "1.0"
